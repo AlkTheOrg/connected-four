@@ -1,6 +1,10 @@
-require "connected_four/version"
+# require "connected_four/version"
 
 module ConnectedFour
-  class Error < StandardError; end
-  # Your code goes here...
 end
+
+require_relative './connected_four/board.rb'
+require_relative './connected_four/cell.rb'
+require_relative './connected_four/core_extension.rb'
+require_relative './connected_four/game.rb'
+require_relative './connected_four/player.rb'
